@@ -1,0 +1,158 @@
+openapi: 3.0.0
+info:
+  title: Simple Inventory API
+  description: This is a simple API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: /
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /traffic/conditions:
+    get:
+      summary: gets traffic conditions reports
+      operationId: app.get_traffic_conditions
+      description: Gets traffic conditions reports within a timestamp range
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start timestamp for filtering reports
+          schema:
+            type: string
+            format: date-time
+          required: true
+          example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: End timestamp for filtering reports
+          schema:
+            type: string
+            format: date-time
+          required: true
+          example: 2016-08-29T09:12:33.001Z
+      responses:
+        "200":
+          description: Successfully returned a list of traffic conditions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/TrafficConditions"
+
+  /traffic/incidents:
+    get:
+      summary: gets traffic incidents reports
+      operationId: app.get_traffic_incidents
+      description: Gets traffic incidents reports within a timestamp range
+      parameters:
+        - name: start_timestamp
+          in: query
+          description: Start timestamp for filtering reports
+          schema:
+            type: string
+            format: date-time
+          required: true
+          example: 2016-08-29T09:12:33.001Z
+        - name: end_timestamp
+          in: query
+          description: End timestamp for filtering reports
+          schema:
+            type: string
+            format: date-time
+          required: true
+          example: 2016-08-29T09:12:33.001Z
+      responses:
+        "200":
+          description: Successfully returned a list of traffic incidents
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/TrafficIncidents"
+components:
+  schemas:
+    TrafficConditions:
+      required:
+        - device_id
+        - location
+        - timestamp
+        - vehicle_count
+        - average_speed
+        - trace_id
+      type: object
+      properties:
+        device_id:
+          type: string
+          description: The device ID recording the traffic data
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        location:
+          type: string
+          description: approximate area of traffic report
+          example: "Main Street and East Broadway, Vancouver, BC"
+        vehicle_count:
+          type: integer
+          description: number of vehicles passing through the location
+          example: 25
+        average_speed:
+          type: number
+          format: float
+          description: average speed of vehicles passing through area
+          example: 56.7
+        timestamp:
+          type: string
+          description: timestamp of traffic flow report
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        trace_id:
+          type: string
+          description: unique trace ID
+          format: uuid
+          example: aabf1ee2-6c55-7c12-91b6-d701748f0842
+    TrafficIncidents:
+      required:
+        - reporter_id
+        - location
+        - incident_type
+        - description
+        - timestamp
+        - trace_id
+      type: object
+      properties:
+        reporter_id:
+          type: string
+          description: ID of the device or person reporting the incident
+          format: uuid
+          example: aabf1ee2-6c55-7c12-91b6-d701748f0842
+        location:
+          type: string
+          description: Location of the incident
+          example: "Highway 101 at Exit 12, Los Angeles, CA"
+        incident_type:
+          type: string
+          description: "Type of incident (e.g., accident, road closure, hazard)"
+          example: "Accident"
+        description:
+          type: string
+          description: Additional details about the incident
+          example: Two-car collision blocking the right lane
+        timestamp:
+          type: string
+          description: Timestamp of the incident report
+          format: date-time
+          example: 2025-01-22T13:45:00Z
+        trace_id:
+          type: string
+          description: unique trace ID
+          format: uuid
+          example: aabf1ee2-6c55-7c12-91b6-d701748f0842

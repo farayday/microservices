@@ -1,0 +1,83 @@
+openapi: 3.0.0
+info:
+  title: Stats API
+  description: This API provides event stats
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+
+servers:
+  - url: /
+
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+
+paths:
+  /stats:
+    get:
+      summary: Gets traffic stats
+      operationId: app.get_stats
+      description: Gets stats for traffic conditions and incidents
+      responses:
+        "200":
+          description: Successfully returned the stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Stats"
+
+        "400":
+          description: Bad request, possibly due to invalid parameters
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Invalid request parameters"
+
+        "404":
+          description: Statistics do not exist
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "Stats not found"
+
+components:
+  schemas:
+    Stats:
+      type: object
+      properties:
+        num_condition_reports:
+          type: integer
+          description: Number of traffic condition reports
+          example: 100
+        num_incident_reports:
+          type: integer
+          description: Number of traffic incident reports
+          example: 50
+        max_vehicle_count:
+          type: integer
+          description: Maximum number of vehicles reported
+          example: 150
+        avg_vehicle_speed:
+          type: number
+          format: float
+          description: Average speed of vehicles across all reports
+          example: 45.5
+        last_updated:
+          type: string
+          format: date-time
+          description: Timestamp of last update
+          example: "2024-02-20T15:30:00Z"

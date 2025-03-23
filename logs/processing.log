@@ -1,0 +1,1008 @@
+2025-03-23 04:19:13,196 - basicLogger - INFO - Starting period
+2025-03-23 04:19:13,530 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:18,201 - basicLogger - INFO - Starting period
+2025-03-23 04:19:18,401 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:23,259 - basicLogger - INFO - Starting period
+2025-03-23 04:19:23,501 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:28,188 - basicLogger - INFO - Starting period
+2025-03-23 04:19:28,300 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:33,181 - basicLogger - INFO - Starting period
+2025-03-23 04:19:33,268 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:38,174 - basicLogger - INFO - Starting period
+2025-03-23 04:19:38,268 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:43,182 - basicLogger - INFO - Starting period
+2025-03-23 04:19:43,278 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:48,171 - basicLogger - INFO - Starting period
+2025-03-23 04:19:48,250 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:53,186 - basicLogger - INFO - Starting period
+2025-03-23 04:19:53,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:19:58,171 - basicLogger - INFO - Starting period
+2025-03-23 04:19:58,228 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:03,175 - basicLogger - INFO - Starting period
+2025-03-23 04:20:03,234 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:08,173 - basicLogger - INFO - Starting period
+2025-03-23 04:20:08,224 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:13,178 - basicLogger - INFO - Starting period
+2025-03-23 04:20:13,253 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:18,172 - basicLogger - INFO - Starting period
+2025-03-23 04:20:18,227 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:23,181 - basicLogger - INFO - Starting period
+2025-03-23 04:20:23,367 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:28,174 - basicLogger - INFO - Starting period
+2025-03-23 04:20:28,282 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:33,175 - basicLogger - INFO - Starting period
+2025-03-23 04:20:33,390 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:38,352 - basicLogger - INFO - Starting period
+2025-03-23 04:20:38,995 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:43,194 - basicLogger - INFO - Starting period
+2025-03-23 04:20:43,413 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:48,205 - basicLogger - INFO - Starting period
+2025-03-23 04:20:48,344 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:53,193 - basicLogger - INFO - Starting period
+2025-03-23 04:20:53,341 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:20:58,179 - basicLogger - INFO - Starting period
+2025-03-23 04:20:58,270 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:03,170 - basicLogger - INFO - Starting period
+2025-03-23 04:21:03,239 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:08,186 - basicLogger - INFO - Starting period
+2025-03-23 04:21:08,557 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:13,199 - basicLogger - INFO - Starting period
+2025-03-23 04:21:13,448 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:18,173 - basicLogger - INFO - Starting period
+2025-03-23 04:21:18,226 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:23,190 - basicLogger - INFO - Starting period
+2025-03-23 04:21:23,243 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:28,170 - basicLogger - INFO - Starting period
+2025-03-23 04:21:28,217 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:33,176 - basicLogger - INFO - Starting period
+2025-03-23 04:21:33,226 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:38,171 - basicLogger - INFO - Starting period
+2025-03-23 04:21:38,224 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:43,171 - basicLogger - INFO - Starting period
+2025-03-23 04:21:43,227 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:48,172 - basicLogger - INFO - Starting period
+2025-03-23 04:21:48,213 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:53,169 - basicLogger - INFO - Starting period
+2025-03-23 04:21:53,222 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:21:58,196 - basicLogger - INFO - Starting period
+2025-03-23 04:21:58,280 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:03,177 - basicLogger - INFO - Starting period
+2025-03-23 04:22:03,230 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:08,578 - basicLogger - INFO - Starting period
+2025-03-23 04:22:11,137 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:13,242 - basicLogger - INFO - Starting period
+2025-03-23 04:22:13,612 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:18,885 - basicLogger - INFO - Starting period
+2025-03-23 04:22:19,134 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:23,217 - basicLogger - INFO - Starting period
+2025-03-23 04:22:23,370 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:28,250 - basicLogger - INFO - Starting period
+2025-03-23 04:22:28,527 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:33,182 - basicLogger - INFO - Starting period
+2025-03-23 04:22:33,504 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:38,173 - basicLogger - INFO - Starting period
+2025-03-23 04:22:38,226 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:43,179 - basicLogger - INFO - Starting period
+2025-03-23 04:22:43,276 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:48,185 - basicLogger - INFO - Starting period
+2025-03-23 04:22:48,242 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:53,184 - basicLogger - INFO - Starting period
+2025-03-23 04:22:53,440 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:22:58,175 - basicLogger - INFO - Starting period
+2025-03-23 04:22:58,227 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:03,178 - basicLogger - INFO - Starting period
+2025-03-23 04:23:03,247 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:08,172 - basicLogger - INFO - Starting period
+2025-03-23 04:23:08,227 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:13,181 - basicLogger - INFO - Starting period
+2025-03-23 04:23:13,245 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:18,229 - basicLogger - INFO - Starting period
+2025-03-23 04:23:20,328 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:28,297 - basicLogger - INFO - Starting period
+2025-03-23 04:23:28,703 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:33,737 - basicLogger - INFO - Starting period
+2025-03-23 04:23:34,436 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:38,263 - basicLogger - INFO - Starting period
+2025-03-23 04:23:38,942 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:43,592 - basicLogger - INFO - Starting period
+2025-03-23 04:23:44,018 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:48,188 - basicLogger - INFO - Starting period
+2025-03-23 04:23:48,243 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:53,311 - basicLogger - INFO - Starting period
+2025-03-23 04:23:53,394 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:23:58,172 - basicLogger - INFO - Starting period
+2025-03-23 04:23:58,221 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:03,174 - basicLogger - INFO - Starting period
+2025-03-23 04:24:03,234 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:08,171 - basicLogger - INFO - Starting period
+2025-03-23 04:24:08,313 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:13,177 - basicLogger - INFO - Starting period
+2025-03-23 04:24:13,246 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:18,183 - basicLogger - INFO - Starting period
+2025-03-23 04:24:18,243 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:23,175 - basicLogger - INFO - Starting period
+2025-03-23 04:24:23,301 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:28,200 - basicLogger - INFO - Starting period
+2025-03-23 04:24:28,304 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:33,178 - basicLogger - INFO - Starting period
+2025-03-23 04:24:33,257 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:38,236 - basicLogger - INFO - Starting period
+2025-03-23 04:24:38,716 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:43,201 - basicLogger - INFO - Starting period
+2025-03-23 04:24:43,378 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:48,173 - basicLogger - INFO - Starting period
+2025-03-23 04:24:48,230 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:53,168 - basicLogger - INFO - Starting period
+2025-03-23 04:24:53,216 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:24:58,179 - basicLogger - INFO - Starting period
+2025-03-23 04:24:58,322 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:25:03,192 - basicLogger - INFO - Starting period
+2025-03-23 04:25:03,311 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:25:08,185 - basicLogger - INFO - Starting period
+2025-03-23 04:25:08,436 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:25:13,195 - basicLogger - INFO - Starting period
+2025-03-23 04:25:13,389 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:25:18,183 - basicLogger - INFO - Starting period
+2025-03-23 04:25:18,240 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:25:23,252 - basicLogger - INFO - Starting period
+2025-03-23 04:25:23,421 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:25:28,187 - basicLogger - INFO - Starting period
+2025-03-23 04:25:28,249 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:25:33,175 - basicLogger - INFO - Starting period
+2025-03-23 04:25:33,461 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:04,290 - basicLogger - INFO - Starting period
+2025-03-23 04:29:05,138 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:09,355 - basicLogger - INFO - Starting period
+2025-03-23 04:29:09,723 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:14,258 - basicLogger - INFO - Starting period
+2025-03-23 04:29:14,361 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:19,258 - basicLogger - INFO - Starting period
+2025-03-23 04:29:19,515 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:24,273 - basicLogger - INFO - Starting period
+2025-03-23 04:29:24,549 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:29,246 - basicLogger - INFO - Starting period
+2025-03-23 04:29:29,412 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:34,244 - basicLogger - INFO - Starting period
+2025-03-23 04:29:34,388 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:39,246 - basicLogger - INFO - Starting period
+2025-03-23 04:29:39,575 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:44,242 - basicLogger - INFO - Starting period
+2025-03-23 04:29:44,287 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:49,238 - basicLogger - INFO - Starting period
+2025-03-23 04:29:49,304 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:54,252 - basicLogger - INFO - Starting period
+2025-03-23 04:29:54,345 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:29:59,368 - basicLogger - INFO - Starting period
+2025-03-23 04:29:59,506 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:04,274 - basicLogger - INFO - Starting period
+2025-03-23 04:30:04,327 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:09,246 - basicLogger - INFO - Starting period
+2025-03-23 04:30:09,305 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:14,241 - basicLogger - INFO - Starting period
+2025-03-23 04:30:14,295 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:19,241 - basicLogger - INFO - Starting period
+2025-03-23 04:30:19,344 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:24,246 - basicLogger - INFO - Starting period
+2025-03-23 04:30:24,326 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:29,239 - basicLogger - INFO - Starting period
+2025-03-23 04:30:29,301 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:34,237 - basicLogger - INFO - Starting period
+2025-03-23 04:30:34,294 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:39,240 - basicLogger - INFO - Starting period
+2025-03-23 04:30:39,298 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:44,238 - basicLogger - INFO - Starting period
+2025-03-23 04:30:44,316 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:49,236 - basicLogger - INFO - Starting period
+2025-03-23 04:30:49,292 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:54,238 - basicLogger - INFO - Starting period
+2025-03-23 04:30:54,322 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:30:59,249 - basicLogger - INFO - Starting period
+2025-03-23 04:30:59,374 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:04,237 - basicLogger - INFO - Starting period
+2025-03-23 04:31:04,302 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:09,239 - basicLogger - INFO - Starting period
+2025-03-23 04:31:09,302 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:14,236 - basicLogger - INFO - Starting period
+2025-03-23 04:31:14,285 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:19,262 - basicLogger - INFO - Starting period
+2025-03-23 04:31:19,697 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:24,256 - basicLogger - INFO - Starting period
+2025-03-23 04:31:24,366 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:29,238 - basicLogger - INFO - Starting period
+2025-03-23 04:31:29,330 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:34,238 - basicLogger - INFO - Starting period
+2025-03-23 04:31:34,288 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:39,238 - basicLogger - INFO - Starting period
+2025-03-23 04:31:39,311 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:44,239 - basicLogger - INFO - Starting period
+2025-03-23 04:31:44,287 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:49,235 - basicLogger - INFO - Starting period
+2025-03-23 04:31:49,287 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:54,246 - basicLogger - INFO - Starting period
+2025-03-23 04:31:54,298 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:31:59,266 - basicLogger - INFO - Starting period
+2025-03-23 04:31:59,438 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:04,242 - basicLogger - INFO - Starting period
+2025-03-23 04:32:04,323 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:09,240 - basicLogger - INFO - Starting period
+2025-03-23 04:32:09,298 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:14,254 - basicLogger - INFO - Starting period
+2025-03-23 04:32:14,326 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:19,242 - basicLogger - INFO - Starting period
+2025-03-23 04:32:19,352 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:24,241 - basicLogger - INFO - Starting period
+2025-03-23 04:32:24,380 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:29,337 - basicLogger - INFO - Starting period
+2025-03-23 04:32:29,565 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:34,241 - basicLogger - INFO - Starting period
+2025-03-23 04:32:34,363 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:39,239 - basicLogger - INFO - Starting period
+2025-03-23 04:32:39,292 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:44,241 - basicLogger - INFO - Starting period
+2025-03-23 04:32:44,302 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:49,239 - basicLogger - INFO - Starting period
+2025-03-23 04:32:49,318 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:54,240 - basicLogger - INFO - Starting period
+2025-03-23 04:32:54,299 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:32:59,256 - basicLogger - INFO - Starting period
+2025-03-23 04:32:59,354 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:33:04,238 - basicLogger - INFO - Starting period
+2025-03-23 04:33:04,291 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:33:09,244 - basicLogger - INFO - Starting period
+2025-03-23 04:33:09,348 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:33:14,237 - basicLogger - INFO - Starting period
+2025-03-23 04:33:14,285 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:33:19,239 - basicLogger - INFO - Starting period
+2025-03-23 04:33:19,352 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:41:50,496 - basicLogger - INFO - Starting period
+2025-03-23 04:41:51,059 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:41:55,515 - basicLogger - INFO - Starting period
+2025-03-23 04:41:55,838 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:00,516 - basicLogger - INFO - Starting period
+2025-03-23 04:42:00,648 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:05,491 - basicLogger - INFO - Starting period
+2025-03-23 04:42:05,572 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:10,481 - basicLogger - INFO - Starting period
+2025-03-23 04:42:10,549 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:15,484 - basicLogger - INFO - Starting period
+2025-03-23 04:42:15,565 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:20,486 - basicLogger - INFO - Starting period
+2025-03-23 04:42:20,564 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:25,484 - basicLogger - INFO - Starting period
+2025-03-23 04:42:25,571 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:30,486 - basicLogger - INFO - Starting period
+2025-03-23 04:42:30,538 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:35,481 - basicLogger - INFO - Starting period
+2025-03-23 04:42:35,527 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:40,480 - basicLogger - INFO - Starting period
+2025-03-23 04:42:40,540 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:45,483 - basicLogger - INFO - Starting period
+2025-03-23 04:42:45,543 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:50,478 - basicLogger - INFO - Starting period
+2025-03-23 04:42:50,529 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:42:55,480 - basicLogger - INFO - Starting period
+2025-03-23 04:42:55,528 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:00,524 - basicLogger - INFO - Starting period
+2025-03-23 04:43:00,851 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:05,496 - basicLogger - INFO - Starting period
+2025-03-23 04:43:05,622 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:10,479 - basicLogger - INFO - Starting period
+2025-03-23 04:43:10,525 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:15,482 - basicLogger - INFO - Starting period
+2025-03-23 04:43:15,540 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:20,505 - basicLogger - INFO - Starting period
+2025-03-23 04:43:20,591 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:25,483 - basicLogger - INFO - Starting period
+2025-03-23 04:43:25,537 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:30,480 - basicLogger - INFO - Starting period
+2025-03-23 04:43:30,568 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:35,598 - basicLogger - INFO - Starting period
+2025-03-23 04:43:35,687 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:40,479 - basicLogger - INFO - Starting period
+2025-03-23 04:43:40,529 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:45,483 - basicLogger - INFO - Starting period
+2025-03-23 04:43:45,589 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:50,480 - basicLogger - INFO - Starting period
+2025-03-23 04:43:50,533 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:43:55,483 - basicLogger - INFO - Starting period
+2025-03-23 04:43:55,548 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:00,486 - basicLogger - INFO - Starting period
+2025-03-23 04:44:00,540 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:05,485 - basicLogger - INFO - Starting period
+2025-03-23 04:44:05,543 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:10,482 - basicLogger - INFO - Starting period
+2025-03-23 04:44:10,532 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:15,513 - basicLogger - INFO - Starting period
+2025-03-23 04:44:15,661 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:20,504 - basicLogger - INFO - Starting period
+2025-03-23 04:44:20,619 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:25,512 - basicLogger - INFO - Starting period
+2025-03-23 04:44:25,567 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:30,478 - basicLogger - INFO - Starting period
+2025-03-23 04:44:30,525 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:35,487 - basicLogger - INFO - Starting period
+2025-03-23 04:44:35,539 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:40,478 - basicLogger - INFO - Starting period
+2025-03-23 04:44:40,521 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:45,478 - basicLogger - INFO - Starting period
+2025-03-23 04:44:45,524 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:50,480 - basicLogger - INFO - Starting period
+2025-03-23 04:44:50,528 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:44:55,489 - basicLogger - INFO - Starting period
+2025-03-23 04:44:55,542 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:00,505 - basicLogger - INFO - Starting period
+2025-03-23 04:45:00,601 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:05,480 - basicLogger - INFO - Starting period
+2025-03-23 04:45:05,547 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:10,485 - basicLogger - INFO - Starting period
+2025-03-23 04:45:10,675 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:15,545 - basicLogger - INFO - Starting period
+2025-03-23 04:45:15,992 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:20,486 - basicLogger - INFO - Starting period
+2025-03-23 04:45:20,542 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:25,479 - basicLogger - INFO - Starting period
+2025-03-23 04:45:25,555 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:30,529 - basicLogger - INFO - Starting period
+2025-03-23 04:45:30,782 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:35,504 - basicLogger - INFO - Starting period
+2025-03-23 04:45:35,618 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:40,496 - basicLogger - INFO - Starting period
+2025-03-23 04:45:40,605 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:45,520 - basicLogger - INFO - Starting period
+2025-03-23 04:45:45,609 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:50,521 - basicLogger - INFO - Starting period
+2025-03-23 04:45:50,691 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:45:55,492 - basicLogger - INFO - Starting period
+2025-03-23 04:45:55,552 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:46:00,653 - basicLogger - INFO - Starting period
+2025-03-23 04:46:00,887 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:46:05,485 - basicLogger - INFO - Starting period
+2025-03-23 04:46:05,542 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:46:10,480 - basicLogger - INFO - Starting period
+2025-03-23 04:46:10,531 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:46:15,485 - basicLogger - INFO - Starting period
+2025-03-23 04:46:15,625 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:46:20,482 - basicLogger - INFO - Starting period
+2025-03-23 04:46:20,542 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:46:25,484 - basicLogger - INFO - Starting period
+2025-03-23 04:46:25,574 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:46:30,479 - basicLogger - INFO - Starting period
+2025-03-23 04:46:30,540 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:47:27,252 - basicLogger - INFO - Starting period
+2025-03-23 04:47:27,575 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:47:32,241 - basicLogger - INFO - Starting period
+2025-03-23 04:47:32,309 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:47:37,295 - basicLogger - INFO - Starting period
+2025-03-23 04:47:37,534 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:47:42,248 - basicLogger - INFO - Starting period
+2025-03-23 04:47:42,336 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:47:47,264 - basicLogger - INFO - Starting period
+2025-03-23 04:47:47,426 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:47:52,270 - basicLogger - INFO - Starting period
+2025-03-23 04:47:52,400 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:47:57,465 - basicLogger - INFO - Starting period
+2025-03-23 04:47:58,265 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:02,415 - basicLogger - INFO - Starting period
+2025-03-23 04:48:02,780 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:07,270 - basicLogger - INFO - Starting period
+2025-03-23 04:48:07,397 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:12,268 - basicLogger - INFO - Starting period
+2025-03-23 04:48:12,375 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:17,277 - basicLogger - INFO - Starting period
+2025-03-23 04:48:17,410 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:22,252 - basicLogger - INFO - Starting period
+2025-03-23 04:48:22,368 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:27,243 - basicLogger - INFO - Starting period
+2025-03-23 04:48:27,296 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:32,240 - basicLogger - INFO - Starting period
+2025-03-23 04:48:32,296 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:37,592 - basicLogger - INFO - Starting period
+2025-03-23 04:48:37,988 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:42,255 - basicLogger - INFO - Starting period
+2025-03-23 04:48:42,347 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:47,260 - basicLogger - INFO - Starting period
+2025-03-23 04:48:47,438 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:52,377 - basicLogger - INFO - Starting period
+2025-03-23 04:48:52,901 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:48:57,242 - basicLogger - INFO - Starting period
+2025-03-23 04:48:57,502 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:49:02,314 - basicLogger - INFO - Starting period
+2025-03-23 04:49:03,283 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:49:07,295 - basicLogger - INFO - Starting period
+2025-03-23 04:49:07,488 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:54:49,259 - basicLogger - INFO - Starting period
+2025-03-23 04:54:51,091 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:54:54,183 - basicLogger - INFO - Starting period
+2025-03-23 04:54:54,419 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:54:59,172 - basicLogger - INFO - Starting period
+2025-03-23 04:54:59,338 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:14,217 - basicLogger - INFO - Starting period
+2025-03-23 04:56:14,551 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:19,245 - basicLogger - INFO - Starting period
+2025-03-23 04:56:19,405 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:24,208 - basicLogger - INFO - Starting period
+2025-03-23 04:56:24,325 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:29,213 - basicLogger - INFO - Starting period
+2025-03-23 04:56:29,332 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:34,245 - basicLogger - INFO - Starting period
+2025-03-23 04:56:34,626 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:39,215 - basicLogger - INFO - Starting period
+2025-03-23 04:56:39,431 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:44,201 - basicLogger - INFO - Starting period
+2025-03-23 04:56:44,295 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:49,249 - basicLogger - INFO - Starting period
+2025-03-23 04:56:49,701 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:54,229 - basicLogger - INFO - Starting period
+2025-03-23 04:56:54,378 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:56:59,210 - basicLogger - INFO - Starting period
+2025-03-23 04:56:59,306 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:04,203 - basicLogger - INFO - Starting period
+2025-03-23 04:57:04,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:09,207 - basicLogger - INFO - Starting period
+2025-03-23 04:57:09,330 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:14,203 - basicLogger - INFO - Starting period
+2025-03-23 04:57:14,253 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:19,223 - basicLogger - INFO - Starting period
+2025-03-23 04:57:19,415 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:24,205 - basicLogger - INFO - Starting period
+2025-03-23 04:57:24,262 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:29,234 - basicLogger - INFO - Starting period
+2025-03-23 04:57:29,443 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:34,204 - basicLogger - INFO - Starting period
+2025-03-23 04:57:34,779 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:39,201 - basicLogger - INFO - Starting period
+2025-03-23 04:57:39,288 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:44,201 - basicLogger - INFO - Starting period
+2025-03-23 04:57:44,262 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:49,200 - basicLogger - INFO - Starting period
+2025-03-23 04:57:49,261 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:54,201 - basicLogger - INFO - Starting period
+2025-03-23 04:57:54,246 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:57:59,202 - basicLogger - INFO - Starting period
+2025-03-23 04:57:59,255 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:04,203 - basicLogger - INFO - Starting period
+2025-03-23 04:58:04,260 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:09,200 - basicLogger - INFO - Starting period
+2025-03-23 04:58:09,332 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:14,208 - basicLogger - INFO - Starting period
+2025-03-23 04:58:14,253 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:19,204 - basicLogger - INFO - Starting period
+2025-03-23 04:58:19,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:24,206 - basicLogger - INFO - Starting period
+2025-03-23 04:58:24,275 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:29,201 - basicLogger - INFO - Starting period
+2025-03-23 04:58:29,255 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:34,212 - basicLogger - INFO - Starting period
+2025-03-23 04:58:34,325 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:39,202 - basicLogger - INFO - Starting period
+2025-03-23 04:58:39,259 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:44,199 - basicLogger - INFO - Starting period
+2025-03-23 04:58:44,266 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:49,201 - basicLogger - INFO - Starting period
+2025-03-23 04:58:49,251 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:54,203 - basicLogger - INFO - Starting period
+2025-03-23 04:58:54,262 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:58:59,209 - basicLogger - INFO - Starting period
+2025-03-23 04:58:59,294 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:04,207 - basicLogger - INFO - Starting period
+2025-03-23 04:59:04,263 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:09,200 - basicLogger - INFO - Starting period
+2025-03-23 04:59:09,254 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:14,205 - basicLogger - INFO - Starting period
+2025-03-23 04:59:14,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:19,204 - basicLogger - INFO - Starting period
+2025-03-23 04:59:19,255 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:24,216 - basicLogger - INFO - Starting period
+2025-03-23 04:59:24,275 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:29,216 - basicLogger - INFO - Starting period
+2025-03-23 04:59:29,372 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:34,205 - basicLogger - INFO - Starting period
+2025-03-23 04:59:34,304 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:39,202 - basicLogger - INFO - Starting period
+2025-03-23 04:59:39,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:44,201 - basicLogger - INFO - Starting period
+2025-03-23 04:59:44,249 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:49,199 - basicLogger - INFO - Starting period
+2025-03-23 04:59:49,247 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:54,218 - basicLogger - INFO - Starting period
+2025-03-23 04:59:54,322 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 04:59:59,206 - basicLogger - INFO - Starting period
+2025-03-23 04:59:59,248 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:04,201 - basicLogger - INFO - Starting period
+2025-03-23 05:00:04,268 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:09,201 - basicLogger - INFO - Starting period
+2025-03-23 05:00:09,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:14,203 - basicLogger - INFO - Starting period
+2025-03-23 05:00:14,268 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:19,206 - basicLogger - INFO - Starting period
+2025-03-23 05:00:19,336 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:24,214 - basicLogger - INFO - Starting period
+2025-03-23 05:00:24,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:29,205 - basicLogger - INFO - Starting period
+2025-03-23 05:00:29,249 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:34,211 - basicLogger - INFO - Starting period
+2025-03-23 05:00:34,284 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:39,199 - basicLogger - INFO - Starting period
+2025-03-23 05:00:39,250 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:44,206 - basicLogger - INFO - Starting period
+2025-03-23 05:00:44,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:49,211 - basicLogger - INFO - Starting period
+2025-03-23 05:00:49,263 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:54,202 - basicLogger - INFO - Starting period
+2025-03-23 05:00:54,267 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:00:59,200 - basicLogger - INFO - Starting period
+2025-03-23 05:00:59,257 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:04,206 - basicLogger - INFO - Starting period
+2025-03-23 05:01:04,357 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:09,202 - basicLogger - INFO - Starting period
+2025-03-23 05:01:09,276 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:14,204 - basicLogger - INFO - Starting period
+2025-03-23 05:01:14,259 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:19,206 - basicLogger - INFO - Starting period
+2025-03-23 05:01:19,251 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:24,211 - basicLogger - INFO - Starting period
+2025-03-23 05:01:24,259 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:29,201 - basicLogger - INFO - Starting period
+2025-03-23 05:01:29,247 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:34,208 - basicLogger - INFO - Starting period
+2025-03-23 05:01:34,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:39,208 - basicLogger - INFO - Starting period
+2025-03-23 05:01:39,264 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:44,205 - basicLogger - INFO - Starting period
+2025-03-23 05:01:44,266 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:49,222 - basicLogger - INFO - Starting period
+2025-03-23 05:01:49,317 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:54,202 - basicLogger - INFO - Starting period
+2025-03-23 05:01:54,250 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:01:59,203 - basicLogger - INFO - Starting period
+2025-03-23 05:01:59,310 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:04,201 - basicLogger - INFO - Starting period
+2025-03-23 05:02:04,249 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:09,201 - basicLogger - INFO - Starting period
+2025-03-23 05:02:09,251 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:14,202 - basicLogger - INFO - Starting period
+2025-03-23 05:02:14,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:19,203 - basicLogger - INFO - Starting period
+2025-03-23 05:02:19,248 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:24,200 - basicLogger - INFO - Starting period
+2025-03-23 05:02:24,251 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:29,207 - basicLogger - INFO - Starting period
+2025-03-23 05:02:29,303 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:34,205 - basicLogger - INFO - Starting period
+2025-03-23 05:02:34,267 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:39,203 - basicLogger - INFO - Starting period
+2025-03-23 05:02:39,255 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:44,200 - basicLogger - INFO - Starting period
+2025-03-23 05:02:44,262 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:49,232 - basicLogger - INFO - Starting period
+2025-03-23 05:02:49,336 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:54,206 - basicLogger - INFO - Starting period
+2025-03-23 05:02:54,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:02:59,210 - basicLogger - INFO - Starting period
+2025-03-23 05:02:59,255 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:04,204 - basicLogger - INFO - Starting period
+2025-03-23 05:03:04,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:09,201 - basicLogger - INFO - Starting period
+2025-03-23 05:03:09,251 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:14,215 - basicLogger - INFO - Starting period
+2025-03-23 05:03:14,263 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:19,217 - basicLogger - INFO - Starting period
+2025-03-23 05:03:19,404 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:24,201 - basicLogger - INFO - Starting period
+2025-03-23 05:03:24,251 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:29,205 - basicLogger - INFO - Starting period
+2025-03-23 05:03:29,267 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:34,204 - basicLogger - INFO - Starting period
+2025-03-23 05:03:34,266 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:39,210 - basicLogger - INFO - Starting period
+2025-03-23 05:03:39,375 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:44,208 - basicLogger - INFO - Starting period
+2025-03-23 05:03:44,253 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:49,204 - basicLogger - INFO - Starting period
+2025-03-23 05:03:49,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:54,211 - basicLogger - INFO - Starting period
+2025-03-23 05:03:54,636 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:03:59,208 - basicLogger - INFO - Starting period
+2025-03-23 05:03:59,453 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:04,205 - basicLogger - INFO - Starting period
+2025-03-23 05:04:04,274 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:09,200 - basicLogger - INFO - Starting period
+2025-03-23 05:04:09,247 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:14,201 - basicLogger - INFO - Starting period
+2025-03-23 05:04:14,247 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:19,208 - basicLogger - INFO - Starting period
+2025-03-23 05:04:19,273 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:24,214 - basicLogger - INFO - Starting period
+2025-03-23 05:04:24,322 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:29,208 - basicLogger - INFO - Starting period
+2025-03-23 05:04:29,265 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:34,201 - basicLogger - INFO - Starting period
+2025-03-23 05:04:34,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:39,201 - basicLogger - INFO - Starting period
+2025-03-23 05:04:39,249 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:44,204 - basicLogger - INFO - Starting period
+2025-03-23 05:04:44,295 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:49,201 - basicLogger - INFO - Starting period
+2025-03-23 05:04:49,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:54,204 - basicLogger - INFO - Starting period
+2025-03-23 05:04:54,266 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:04:59,205 - basicLogger - INFO - Starting period
+2025-03-23 05:04:59,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:04,208 - basicLogger - INFO - Starting period
+2025-03-23 05:05:04,419 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:09,229 - basicLogger - INFO - Starting period
+2025-03-23 05:05:09,423 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:14,207 - basicLogger - INFO - Starting period
+2025-03-23 05:05:14,258 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:19,202 - basicLogger - INFO - Starting period
+2025-03-23 05:05:19,276 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:24,204 - basicLogger - INFO - Starting period
+2025-03-23 05:05:24,266 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:29,205 - basicLogger - INFO - Starting period
+2025-03-23 05:05:29,337 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:34,209 - basicLogger - INFO - Starting period
+2025-03-23 05:05:34,266 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:39,206 - basicLogger - INFO - Starting period
+2025-03-23 05:05:39,250 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:44,202 - basicLogger - INFO - Starting period
+2025-03-23 05:05:44,326 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:49,207 - basicLogger - INFO - Starting period
+2025-03-23 05:05:49,275 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:54,200 - basicLogger - INFO - Starting period
+2025-03-23 05:05:54,249 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:05:59,203 - basicLogger - INFO - Starting period
+2025-03-23 05:05:59,260 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:04,209 - basicLogger - INFO - Starting period
+2025-03-23 05:06:04,336 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:09,221 - basicLogger - INFO - Starting period
+2025-03-23 05:06:09,288 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:14,210 - basicLogger - INFO - Starting period
+2025-03-23 05:06:14,316 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:19,201 - basicLogger - INFO - Starting period
+2025-03-23 05:06:19,257 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:24,204 - basicLogger - INFO - Starting period
+2025-03-23 05:06:24,264 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:29,202 - basicLogger - INFO - Starting period
+2025-03-23 05:06:29,263 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:34,210 - basicLogger - INFO - Starting period
+2025-03-23 05:06:34,254 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:39,204 - basicLogger - INFO - Starting period
+2025-03-23 05:06:39,262 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:44,205 - basicLogger - INFO - Starting period
+2025-03-23 05:06:44,257 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:49,312 - basicLogger - INFO - Starting period
+2025-03-23 05:06:49,391 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:54,206 - basicLogger - INFO - Starting period
+2025-03-23 05:06:54,312 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:06:59,202 - basicLogger - INFO - Starting period
+2025-03-23 05:06:59,335 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:07:04,200 - basicLogger - INFO - Starting period
+2025-03-23 05:07:04,256 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:07:09,200 - basicLogger - INFO - Starting period
+2025-03-23 05:07:09,311 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:07:14,200 - basicLogger - INFO - Starting period
+2025-03-23 05:07:14,254 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:07:19,200 - basicLogger - INFO - Starting period
+2025-03-23 05:07:19,251 - basicLogger - ERROR - Error during requests to eventstore: [Errno 111] Connection refused
+2025-03-23 05:08:55,585 - basicLogger - INFO - Starting period
+2025-03-23 05:08:56,024 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:00,573 - basicLogger - INFO - Starting period
+2025-03-23 05:09:00,892 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:05,559 - basicLogger - INFO - Starting period
+2025-03-23 05:09:05,658 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:10,565 - basicLogger - INFO - Starting period
+2025-03-23 05:09:10,755 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:15,575 - basicLogger - INFO - Starting period
+2025-03-23 05:09:15,747 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:20,598 - basicLogger - INFO - Starting period
+2025-03-23 05:09:20,751 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:25,603 - basicLogger - INFO - Starting period
+2025-03-23 05:09:25,854 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:30,571 - basicLogger - INFO - Starting period
+2025-03-23 05:09:30,670 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:35,594 - basicLogger - INFO - Starting period
+2025-03-23 05:09:35,806 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:40,573 - basicLogger - INFO - Starting period
+2025-03-23 05:09:40,884 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:45,561 - basicLogger - INFO - Starting period
+2025-03-23 05:09:45,684 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:50,557 - basicLogger - INFO - Starting period
+2025-03-23 05:09:50,621 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:09:55,555 - basicLogger - INFO - Starting period
+2025-03-23 05:09:55,628 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:00,586 - basicLogger - INFO - Starting period
+2025-03-23 05:10:00,819 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:05,560 - basicLogger - INFO - Starting period
+2025-03-23 05:10:05,613 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:10,561 - basicLogger - INFO - Starting period
+2025-03-23 05:10:10,642 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:15,595 - basicLogger - INFO - Starting period
+2025-03-23 05:10:16,427 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:20,596 - basicLogger - INFO - Starting period
+2025-03-23 05:10:20,860 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:25,591 - basicLogger - INFO - Starting period
+2025-03-23 05:10:25,732 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:30,558 - basicLogger - INFO - Starting period
+2025-03-23 05:10:30,634 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:35,567 - basicLogger - INFO - Starting period
+2025-03-23 05:10:35,758 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:40,564 - basicLogger - INFO - Starting period
+2025-03-23 05:10:40,680 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:45,570 - basicLogger - INFO - Starting period
+2025-03-23 05:10:45,676 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:50,574 - basicLogger - INFO - Starting period
+2025-03-23 05:10:50,800 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:10:55,564 - basicLogger - INFO - Starting period
+2025-03-23 05:10:55,663 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:00,578 - basicLogger - INFO - Starting period
+2025-03-23 05:11:00,851 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:05,566 - basicLogger - INFO - Starting period
+2025-03-23 05:11:05,638 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:10,561 - basicLogger - INFO - Starting period
+2025-03-23 05:11:10,674 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:15,569 - basicLogger - INFO - Starting period
+2025-03-23 05:11:15,710 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:20,568 - basicLogger - INFO - Starting period
+2025-03-23 05:11:20,666 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:25,561 - basicLogger - INFO - Starting period
+2025-03-23 05:11:25,642 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:30,632 - basicLogger - INFO - Starting period
+2025-03-23 05:11:30,877 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:35,561 - basicLogger - INFO - Starting period
+2025-03-23 05:11:35,623 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:40,562 - basicLogger - INFO - Starting period
+2025-03-23 05:11:40,627 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:45,560 - basicLogger - INFO - Starting period
+2025-03-23 05:11:45,648 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:50,563 - basicLogger - INFO - Starting period
+2025-03-23 05:11:50,641 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:11:55,558 - basicLogger - INFO - Starting period
+2025-03-23 05:11:55,663 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:00,564 - basicLogger - INFO - Starting period
+2025-03-23 05:12:00,620 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:05,558 - basicLogger - INFO - Starting period
+2025-03-23 05:12:05,625 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:10,557 - basicLogger - INFO - Starting period
+2025-03-23 05:12:10,607 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:15,563 - basicLogger - INFO - Starting period
+2025-03-23 05:12:15,791 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:20,605 - basicLogger - INFO - Starting period
+2025-03-23 05:12:20,891 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:25,567 - basicLogger - INFO - Starting period
+2025-03-23 05:12:25,661 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:30,564 - basicLogger - INFO - Starting period
+2025-03-23 05:12:30,643 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:35,558 - basicLogger - INFO - Starting period
+2025-03-23 05:12:35,623 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:40,610 - basicLogger - INFO - Starting period
+2025-03-23 05:12:40,939 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:45,601 - basicLogger - INFO - Starting period
+2025-03-23 05:12:45,783 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:50,577 - basicLogger - INFO - Starting period
+2025-03-23 05:12:50,684 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:12:55,569 - basicLogger - INFO - Starting period
+2025-03-23 05:12:55,661 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:00,586 - basicLogger - INFO - Starting period
+2025-03-23 05:13:00,746 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:05,569 - basicLogger - INFO - Starting period
+2025-03-23 05:13:05,640 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:10,560 - basicLogger - INFO - Starting period
+2025-03-23 05:13:10,630 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:15,565 - basicLogger - INFO - Starting period
+2025-03-23 05:13:15,647 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:20,568 - basicLogger - INFO - Starting period
+2025-03-23 05:13:20,624 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:25,575 - basicLogger - INFO - Starting period
+2025-03-23 05:13:25,825 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:30,559 - basicLogger - INFO - Starting period
+2025-03-23 05:13:30,630 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:35,602 - basicLogger - INFO - Starting period
+2025-03-23 05:13:35,927 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:40,593 - basicLogger - INFO - Starting period
+2025-03-23 05:13:40,755 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:13:45,562 - basicLogger - INFO - Starting period
+2025-03-23 05:13:45,774 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:15:45,994 - basicLogger - INFO - Starting period
+2025-03-23 05:15:46,866 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:15:51,034 - basicLogger - INFO - Starting period
+2025-03-23 05:15:51,497 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:15:55,997 - basicLogger - INFO - Starting period
+2025-03-23 05:15:56,293 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:00,982 - basicLogger - INFO - Starting period
+2025-03-23 05:16:01,142 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:05,975 - basicLogger - INFO - Starting period
+2025-03-23 05:16:06,292 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:10,976 - basicLogger - INFO - Starting period
+2025-03-23 05:16:11,473 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:15,983 - basicLogger - INFO - Starting period
+2025-03-23 05:16:16,173 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:20,977 - basicLogger - INFO - Starting period
+2025-03-23 05:16:21,693 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:25,970 - basicLogger - INFO - Starting period
+2025-03-23 05:16:26,068 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:30,980 - basicLogger - INFO - Starting period
+2025-03-23 05:16:31,094 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:35,971 - basicLogger - INFO - Starting period
+2025-03-23 05:16:36,048 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:16:40,967 - basicLogger - INFO - Starting period
+2025-03-23 05:16:41,041 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:18:29,026 - basicLogger - INFO - Starting period
+2025-03-23 05:18:30,143 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:18:33,650 - basicLogger - INFO - Starting period
+2025-03-23 05:18:34,155 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:18:38,565 - basicLogger - INFO - Starting period
+2025-03-23 05:18:38,714 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:18:43,606 - basicLogger - INFO - Starting period
+2025-03-23 05:18:44,082 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:18:48,538 - basicLogger - INFO - Starting period
+2025-03-23 05:18:48,765 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:18:53,529 - basicLogger - INFO - Starting period
+2025-03-23 05:18:53,872 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:18:58,578 - basicLogger - INFO - Starting period
+2025-03-23 05:18:59,581 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:03,547 - basicLogger - INFO - Starting period
+2025-03-23 05:19:05,163 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:08,578 - basicLogger - INFO - Starting period
+2025-03-23 05:19:09,575 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:13,659 - basicLogger - INFO - Starting period
+2025-03-23 05:19:14,775 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:18,559 - basicLogger - INFO - Starting period
+2025-03-23 05:19:19,043 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:23,498 - basicLogger - INFO - Starting period
+2025-03-23 05:19:23,631 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:28,472 - basicLogger - INFO - Starting period
+2025-03-23 05:19:28,566 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:33,474 - basicLogger - INFO - Starting period
+2025-03-23 05:19:33,544 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:38,475 - basicLogger - INFO - Starting period
+2025-03-23 05:19:38,551 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:43,475 - basicLogger - INFO - Starting period
+2025-03-23 05:19:43,549 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:48,474 - basicLogger - INFO - Starting period
+2025-03-23 05:19:48,536 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:53,504 - basicLogger - INFO - Starting period
+2025-03-23 05:19:53,991 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:19:58,485 - basicLogger - INFO - Starting period
+2025-03-23 05:19:58,583 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:03,481 - basicLogger - INFO - Starting period
+2025-03-23 05:20:03,557 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:08,476 - basicLogger - INFO - Starting period
+2025-03-23 05:20:08,630 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:13,478 - basicLogger - INFO - Starting period
+2025-03-23 05:20:13,550 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:18,486 - basicLogger - INFO - Starting period
+2025-03-23 05:20:18,588 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:23,545 - basicLogger - INFO - Starting period
+2025-03-23 05:20:24,159 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:28,483 - basicLogger - INFO - Starting period
+2025-03-23 05:20:28,628 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:33,480 - basicLogger - INFO - Starting period
+2025-03-23 05:20:33,571 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:38,474 - basicLogger - INFO - Starting period
+2025-03-23 05:20:38,554 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:43,480 - basicLogger - INFO - Starting period
+2025-03-23 05:20:43,568 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:48,524 - basicLogger - INFO - Starting period
+2025-03-23 05:20:48,743 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:53,519 - basicLogger - INFO - Starting period
+2025-03-23 05:20:53,869 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:20:58,483 - basicLogger - INFO - Starting period
+2025-03-23 05:20:58,537 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:03,474 - basicLogger - INFO - Starting period
+2025-03-23 05:21:03,559 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:08,496 - basicLogger - INFO - Starting period
+2025-03-23 05:21:08,620 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:13,485 - basicLogger - INFO - Starting period
+2025-03-23 05:21:13,635 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:18,558 - basicLogger - INFO - Starting period
+2025-03-23 05:21:18,725 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:23,495 - basicLogger - INFO - Starting period
+2025-03-23 05:21:23,684 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:28,496 - basicLogger - INFO - Starting period
+2025-03-23 05:21:28,716 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:33,498 - basicLogger - INFO - Starting period
+2025-03-23 05:21:33,637 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:38,475 - basicLogger - INFO - Starting period
+2025-03-23 05:21:38,556 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:43,489 - basicLogger - INFO - Starting period
+2025-03-23 05:21:43,752 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:48,483 - basicLogger - INFO - Starting period
+2025-03-23 05:21:48,670 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:53,484 - basicLogger - INFO - Starting period
+2025-03-23 05:21:53,663 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:21:58,519 - basicLogger - INFO - Starting period
+2025-03-23 05:21:58,627 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:03,481 - basicLogger - INFO - Starting period
+2025-03-23 05:22:03,536 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:08,473 - basicLogger - INFO - Starting period
+2025-03-23 05:22:08,548 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:13,524 - basicLogger - INFO - Starting period
+2025-03-23 05:22:13,666 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:18,542 - basicLogger - INFO - Starting period
+2025-03-23 05:22:19,059 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:23,478 - basicLogger - INFO - Starting period
+2025-03-23 05:22:23,555 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:28,478 - basicLogger - INFO - Starting period
+2025-03-23 05:22:28,543 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:33,475 - basicLogger - INFO - Starting period
+2025-03-23 05:22:33,552 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:38,479 - basicLogger - INFO - Starting period
+2025-03-23 05:22:38,553 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:43,494 - basicLogger - INFO - Starting period
+2025-03-23 05:22:43,886 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:48,477 - basicLogger - INFO - Starting period
+2025-03-23 05:22:48,544 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:53,496 - basicLogger - INFO - Starting period
+2025-03-23 05:22:53,630 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:22:58,474 - basicLogger - INFO - Starting period
+2025-03-23 05:22:58,536 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:03,475 - basicLogger - INFO - Starting period
+2025-03-23 05:23:03,535 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:08,476 - basicLogger - INFO - Starting period
+2025-03-23 05:23:08,556 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:13,479 - basicLogger - INFO - Starting period
+2025-03-23 05:23:13,601 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:18,475 - basicLogger - INFO - Starting period
+2025-03-23 05:23:18,593 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:23,527 - basicLogger - INFO - Starting period
+2025-03-23 05:23:23,771 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:28,979 - basicLogger - INFO - Starting period
+2025-03-23 05:23:29,607 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:33,492 - basicLogger - INFO - Starting period
+2025-03-23 05:23:33,660 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:38,476 - basicLogger - INFO - Starting period
+2025-03-23 05:23:38,587 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:43,476 - basicLogger - INFO - Starting period
+2025-03-23 05:23:43,549 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:48,475 - basicLogger - INFO - Starting period
+2025-03-23 05:23:48,533 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:53,487 - basicLogger - INFO - Starting period
+2025-03-23 05:23:53,557 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:23:58,515 - basicLogger - INFO - Starting period
+2025-03-23 05:23:58,675 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:03,495 - basicLogger - INFO - Starting period
+2025-03-23 05:24:03,620 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:08,500 - basicLogger - INFO - Starting period
+2025-03-23 05:24:08,718 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:13,475 - basicLogger - INFO - Starting period
+2025-03-23 05:24:13,573 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:18,475 - basicLogger - INFO - Starting period
+2025-03-23 05:24:18,559 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:23,477 - basicLogger - INFO - Starting period
+2025-03-23 05:24:23,564 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:28,487 - basicLogger - INFO - Starting period
+2025-03-23 05:24:28,676 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:33,483 - basicLogger - INFO - Starting period
+2025-03-23 05:24:33,546 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:38,482 - basicLogger - INFO - Starting period
+2025-03-23 05:24:38,591 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:43,483 - basicLogger - INFO - Starting period
+2025-03-23 05:24:43,628 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:48,479 - basicLogger - INFO - Starting period
+2025-03-23 05:24:48,555 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:53,477 - basicLogger - INFO - Starting period
+2025-03-23 05:24:53,546 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:24:58,495 - basicLogger - INFO - Starting period
+2025-03-23 05:24:58,576 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:03,478 - basicLogger - INFO - Starting period
+2025-03-23 05:25:03,535 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:08,474 - basicLogger - INFO - Starting period
+2025-03-23 05:25:08,548 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:13,487 - basicLogger - INFO - Starting period
+2025-03-23 05:25:13,557 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:18,479 - basicLogger - INFO - Starting period
+2025-03-23 05:25:18,572 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:23,475 - basicLogger - INFO - Starting period
+2025-03-23 05:25:23,617 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:28,647 - basicLogger - INFO - Starting period
+2025-03-23 05:25:28,842 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:33,476 - basicLogger - INFO - Starting period
+2025-03-23 05:25:33,536 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:38,477 - basicLogger - INFO - Starting period
+2025-03-23 05:25:38,578 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:43,474 - basicLogger - INFO - Starting period
+2025-03-23 05:25:43,536 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:48,500 - basicLogger - INFO - Starting period
+2025-03-23 05:25:48,654 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known
+2025-03-23 05:25:53,487 - basicLogger - INFO - Starting period
+2025-03-23 05:25:53,603 - basicLogger - ERROR - Error during requests to eventstore: [Errno -2] Name or service not known

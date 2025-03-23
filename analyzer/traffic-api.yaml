@@ -1,0 +1,166 @@
+openapi: 3.0.0
+info:
+  title: Simple Inventory API
+  description: This is a simple API
+  contact:
+    email: you@your-company.com
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  version: 1.0.0
+servers:
+  - url: /
+tags:
+  - name: admins
+    description: Secured Admin-only calls
+  - name: developers
+    description: Operations available to regular developers
+paths:
+  /traffic/conditions:
+    get:
+      summary: gets traffic conditions based on index
+      operationId: app.get_traffic_conditions_by_index
+      description: Gets the traffic conditions event at the specified index in the Kafka queue
+      parameters:
+        - name: index
+          in: query
+          description: Index of traffic conditions in Kafka queue
+          required: true
+          schema:
+            type: integer
+
+      responses:
+        "200":
+          description: Successfully retrieved event
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TrafficConditions"
+        "404":
+          description: Event not found
+
+  /traffic/incidents:
+    get:
+      summary: gets traffic incidents based on index
+      operationId: app.get_traffic_incidents_by_index
+      description: Gets the traffic incidents event at the specified index in the Kafka queue
+      parameters:
+        - name: index
+          in: query
+          description: Index of traffic incidents in Kafka queue
+          required: true
+          schema:
+            type: integer
+
+      responses:
+        "200":
+          description: Successfully retrieved event
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TrafficIncidents"
+        "404":
+          description: Event not found
+
+  /traffic/stats:
+    get:
+      summary: Get statistics of traffic events
+      description: Returns counts of traffic conditions and incidents
+      operationId: app.get_stats
+      responses:
+        "200":
+          description: Successfully retrieved event stats
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Stats"
+
+components:
+  schemas:
+    TrafficConditions:
+      required:
+        - device_id
+        - location
+        - timestamp
+        - vehicle_count
+        - average_speed
+        - trace_id
+      type: object
+      properties:
+        device_id:
+          type: string
+          description: The device ID recording the traffic data
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        location:
+          type: string
+          description: approximate area of traffic report
+          example: "Main Street and East Broadway, Vancouver, BC"
+        vehicle_count:
+          type: integer
+          description: number of vehicles passing through the location
+          example: 25
+        average_speed:
+          type: number
+          format: float
+          description: average speed of vehicles passing through area
+          example: 56.7
+        timestamp:
+          type: string
+          description: timestamp of traffic flow report
+          format: date-time
+          example: 2016-08-29T09:12:33.001Z
+        trace_id:
+          type: string
+          description: unique trace ID
+          format: uuid
+          example: aabf1ee2-6c55-7c12-91b6-d701748f0842
+    TrafficIncidents:
+      required:
+        - reporter_id
+        - location
+        - incident_type
+        - description
+        - timestamp
+        - trace_id
+      type: object
+      properties:
+        reporter_id:
+          type: string
+          description: ID of the device or person reporting the incident
+          format: uuid
+          example: aabf1ee2-6c55-7c12-91b6-d701748f0842
+        location:
+          type: string
+          description: Location of the incident
+          example: "Highway 101 at Exit 12, Los Angeles, CA"
+        incident_type:
+          type: string
+          description: "Type of incident (e.g., accident, road closure, hazard)"
+          example: "Accident"
+        description:
+          type: string
+          description: Additional details about the incident
+          example: Two-car collision blocking the right lane
+        timestamp:
+          type: string
+          description: Timestamp of the incident report
+          format: date-time
+          example: 2025-01-22T13:45:00Z
+        trace_id:
+          type: string
+          description: unique trace ID
+          format: uuid
+          example: aabf1ee2-6c55-7c12-91b6-d701748f0842
+
+    Stats:
+      required:
+        - num_conditions
+        - num_incidents
+      properties:
+        num_conditions:
+          type: integer
+          example: 100
+        num_incidents:
+          type: integer
+          example: 100

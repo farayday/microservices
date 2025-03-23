@@ -1,0 +1,10 @@
+version: 1
+datastore:
+  filename: /app/data/processing.json
+scheduler:
+  interval: 5
+eventstore:
+  conditions:
+    url: http://storage:8090/traffic/conditions
+  incidents:
+    url: http://storage:8090/traffic/incidents

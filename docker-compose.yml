@@ -1,0 +1,97 @@
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_USER: ray
+      MYSQL_PASSWORD: password
+      MYSQL_DATABASE: traffic
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./data/database:/var/lib/mysql
+
+  zookeeper:
+    image: wurstmeister/zookeeper
+    volumes:
+      - zookeeper-data:/data
+
+  kafka:
+    image: wurstmeister/kafka
+    command: [start-kafka.sh]
+    environment:
+      KAFKA_CREATE_TOPICS: "events:1:1"
+      KAFKA_ADVERTISED_HOST_NAME: kafka
+      KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
+      KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://kafka:9092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_LOG_DIRS: /kafka/kafka-logs
+      KAFKA_DELETE_TOPIC_ENABLE: "true"
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
+      KAFKA_BROKER_ID: 1
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./data/kafka:/kafka
+    depends_on:
+      - "zookeeper"
+
+  receiver:
+    build:
+      context: .
+      dockerfile: receiver/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SERVICE_NAME=receiver
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+    depends_on:
+      - kafka
+
+  storage:
+    build:
+      context: .
+      dockerfile: storage/Dockerfile
+    environment:
+      - SERVICE_NAME=storage
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+    depends_on:
+      - db
+      - kafka
+
+  processing:
+    build:
+      context: .
+      dockerfile: processing/Dockerfile
+    ports:
+      - "8100:8100"
+    environment:
+      - SERVICE_NAME=processing
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+      - ./data/processing:/app/data
+    depends_on:
+      - storage
+
+  analyzer:
+    build:
+      context: .
+      dockerfile: analyzer/Dockerfile
+    ports:
+      - "8110:8110"
+    environment:
+      - SERVICE_NAME=analyzer
+    volumes:
+      - ./config:/app/config
+      - ./logs:/app/logs
+    depends_on:
+      - kafka
+
+volumes:
+  zookeeper-data:

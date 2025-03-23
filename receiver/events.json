@@ -1,0 +1,48 @@
+{
+    "num_condition": 65,
+    "recent_condition": [
+        {
+            "msg_data": "Device aabf1ee2-6c55-7c12-91b6-d701748f0842 recorded 25 vehicles passing through Main Street and East Broadway, Vancouver, BC at an average speed of 56.7 km/h.",
+            "received_timestamp": "2025-01-23 16:25:56.862311"
+        },
+        {
+            "msg_data": "Device aabf1ee2-6c55-7c12-91b6-d701748f0842 recorded 25 vehicles passing through Main Street and East Broadway, Vancouver, BC at an average speed of 56.7 km/h.",
+            "received_timestamp": "2025-01-23 16:25:56.855288"
+        },
+        {
+            "msg_data": "Device aabf1ee2-6c55-7c12-91b6-d701748f0842 recorded 25 vehicles passing through Main Street and East Broadway, Vancouver, BC at an average speed of 56.7 km/h.",
+            "received_timestamp": "2025-01-23 16:25:56.850012"
+        },
+        {
+            "msg_data": "Device aabf1ee2-6c55-7c12-91b6-d701748f0842 recorded 25 vehicles passing through Main Street and East Broadway, Vancouver, BC at an average speed of 56.7 km/h.",
+            "received_timestamp": "2025-01-23 16:25:56.844890"
+        },
+        {
+            "msg_data": "Device aabf1ee2-6c55-7c12-91b6-d701748f0842 recorded 25 vehicles passing through Main Street and East Broadway, Vancouver, BC at an average speed of 56.7 km/h.",
+            "received_timestamp": "2025-01-23 16:25:56.838682"
+        }
+    ],
+    "num_incident": 56,
+    "recent_incident": [
+        {
+            "msg_data": "Reporter aabf1ee2-6c55-7c12-91b6-d701748f0842 reported a Accident incident at Highway 101 at Exit 12, Los Angeles, CA",
+            "received_timestamp": "2025-01-23 16:25:56.865523"
+        },
+        {
+            "msg_data": "Reporter aabf1ee2-6c55-7c12-91b6-d701748f0842 reported a Accident incident at Highway 101 at Exit 12, Los Angeles, CA",
+            "received_timestamp": "2025-01-23 16:25:56.858633"
+        },
+        {
+            "msg_data": "Reporter aabf1ee2-6c55-7c12-91b6-d701748f0842 reported a Accident incident at Highway 101 at Exit 12, Los Angeles, CA",
+            "received_timestamp": "2025-01-23 16:25:56.852865"
+        },
+        {
+            "msg_data": "Reporter aabf1ee2-6c55-7c12-91b6-d701748f0842 reported a Accident incident at Highway 101 at Exit 12, Los Angeles, CA",
+            "received_timestamp": "2025-01-23 16:25:56.847407"
+        },
+        {
+            "msg_data": "Reporter aabf1ee2-6c55-7c12-91b6-d701748f0842 reported a Accident incident at Highway 101 at Exit 12, Los Angeles, CA",
+            "received_timestamp": "2025-01-23 16:25:56.841988"
+        }
+    ]
+}
