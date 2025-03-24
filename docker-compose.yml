@@ -45,7 +45,7 @@ services:
     environment:
       - SERVICE_NAME=receiver
     volumes:
-      - ./config/receiver:/app/config
+      - ./config:/app/config
       - ./logs:/app/logs
     depends_on:
       - kafka
@@ -59,7 +59,7 @@ services:
     environment:
       - SERVICE_NAME=storage
     volumes:
-      - ./config/storage:/app/config
+      - ./config:/app/config
       - ./logs:/app/logs
     depends_on:
       - db
@@ -74,7 +74,7 @@ services:
     environment:
       - SERVICE_NAME=processing
     volumes:
-      - ./config/processing:/app/config
+      - ./config:/app/config
       - ./logs:/app/logs
       - ./data/processing:/app/data
     depends_on:
@@ -89,7 +89,7 @@ services:
     environment:
       - SERVICE_NAME=analyzer
     volumes:
-      - ./config/analyzer:/app/config
+      - ./config:/app/config
       - ./logs:/app/logs
     depends_on:
       - kafka
