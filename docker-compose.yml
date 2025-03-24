@@ -19,17 +19,16 @@ services:
   kafka:
     image: wurstmeister/kafka
     command: [start-kafka.sh]
+    ports:
+      - "9092:9092"
     environment:
-      KAFKA_CREATE_TOPICS: "events:1:1"
+      KAFKA_CREATE_TOPICS: "events:1:1" # topic:partition:replicas
       KAFKA_ADVERTISED_HOST_NAME: kafka
       KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
       KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
-      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://kafka:9092
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://localhost:9092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
-      KAFKA_LOG_DIRS: /kafka/kafka-logs
-      KAFKA_DELETE_TOPIC_ENABLE: "true"
-      KAFKA_AUTO_CREATE_TOPICS_ENABLE: "true"
       KAFKA_BROKER_ID: 1
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
@@ -46,7 +45,7 @@ services:
     environment:
       - SERVICE_NAME=receiver
     volumes:
-      - ./config:/app/config
+      - ./config/receiver:/app/config
       - ./logs:/app/logs
     depends_on:
       - kafka
@@ -55,10 +54,12 @@ services:
     build:
       context: .
       dockerfile: storage/Dockerfile
+    ports:
+      - "8090:8090"
     environment:
       - SERVICE_NAME=storage
     volumes:
-      - ./config:/app/config
+      - ./config/storage:/app/config
       - ./logs:/app/logs
     depends_on:
       - db
@@ -73,7 +74,7 @@ services:
     environment:
       - SERVICE_NAME=processing
     volumes:
-      - ./config:/app/config
+      - ./config/processing:/app/config
       - ./logs:/app/logs
       - ./data/processing:/app/data
     depends_on:
@@ -88,10 +89,11 @@ services:
     environment:
       - SERVICE_NAME=analyzer
     volumes:
-      - ./config:/app/config
+      - ./config/analyzer:/app/config
       - ./logs:/app/logs
     depends_on:
       - kafka
 
 volumes:
+  mysql_data:
   zookeeper-data:

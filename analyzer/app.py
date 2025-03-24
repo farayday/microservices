@@ -6,14 +6,14 @@ from pykafka import KafkaClient
 import os
 
 
-with open("config/analyzer_conf.yml", "r") as f:
+with open("/app/config/analyzer/analyzer_conf.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
 
-with open("config/log_conf.yml", "r") as f:
+with open("/config/log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
     service_name = os.getenv("SERVICE_NAME", "default_service")
-log_file_path = f"logs/{service_name}.log"
+log_file_path = f"/logs/{service_name}.log"
 if "file" in LOG_CONFIG["handlers"]:
     LOG_CONFIG["handlers"]["file"]["filename"] = log_file_path
     logging.config.dictConfig(LOG_CONFIG)
