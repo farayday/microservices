@@ -1,5 +1,6 @@
 a2wsgi==1.10.8
 anyio==4.8.0
+apscheduler==3.10.1
 asgiref==3.8.1
 attrs==25.1.0
 black==25.1.0

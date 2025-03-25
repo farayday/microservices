@@ -9,7 +9,13 @@ services:
     ports:
       - "3306:3306"
     volumes:
-      - ./data/database:/var/lib/mysql
+      - mysql_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "ray", "-ppassword"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
 
   zookeeper:
     image: wurstmeister/zookeeper
@@ -26,10 +32,15 @@ services:
       KAFKA_ADVERTISED_HOST_NAME: kafka
       KAFKA_LISTENERS: INSIDE://:29092,OUTSIDE://:9092
       KAFKA_INTER_BROKER_LISTENER_NAME: INSIDE
-      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://localhost:9092
+      KAFKA_ADVERTISED_LISTENERS: INSIDE://kafka:29092,OUTSIDE://kafka:9092
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INSIDE:PLAINTEXT,OUTSIDE:PLAINTEXT
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_BROKER_ID: 1
+    healthcheck:
+      test: ["CMD-SHELL", "kafka-topics.sh --bootstrap-server localhost:9092 --list"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./data/kafka:/kafka
@@ -48,7 +59,9 @@ services:
       - ./config:/app/config
       - ./logs:/app/logs
     depends_on:
-      - kafka
+      kafka:
+        condition: service_healthy
+
 
   storage:
     build:
@@ -62,8 +75,10 @@ services:
       - ./config:/app/config
       - ./logs:/app/logs
     depends_on:
-      - db
-      - kafka
+      db:
+        condition: service_healthy
+      kafka:
+        condition: service_healthy
 
   processing:
     build:

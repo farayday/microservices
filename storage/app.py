@@ -39,52 +39,52 @@ def use_db_session(func):
     return wrapper
 
 
-# @use_db_session
-# def get_traffic_conditions(session, start_timestamp, end_timestamp):
+@use_db_session
+def get_traffic_conditions(session, start_timestamp, end_timestamp):
 
-#     start_datetime = datetime.fromisoformat(start_timestamp).replace(
-#         tzinfo=timezone.utc
-#     )
-#     end_datetime = datetime.fromisoformat(end_timestamp).replace(tzinfo=timezone.utc)
+    start_datetime = datetime.fromisoformat(start_timestamp).replace(
+        tzinfo=timezone.utc
+    )
+    end_datetime = datetime.fromisoformat(end_timestamp).replace(tzinfo=timezone.utc)
 
-#     statement = select(ConditionsReport).where(
-#         ConditionsReport.date_created >= start_datetime,
-#         ConditionsReport.date_created < end_datetime,
-#     )
+    statement = select(ConditionsReport).where(
+        ConditionsReport.date_created >= start_datetime,
+        ConditionsReport.date_created < end_datetime,
+    )
 
-#     event_list = [
-#         result.to_dict() for result in session.execute(statement).scalars().all()
-#     ]
+    event_list = [
+        result.to_dict() for result in session.execute(statement).scalars().all()
+    ]
 
-#     logger.info(
-#         f"Retrieved {len(event_list)} traffic conditions reports between {start_timestamp} and {end_timestamp}"
-#     )
+    logger.info(
+        f"Retrieved {len(event_list)} traffic conditions reports between {start_timestamp} and {end_timestamp}"
+    )
 
-#     return event_list, 200
+    return event_list, 200
 
 
-# @use_db_session
-# def get_traffic_incidents(session, start_timestamp, end_timestamp):
+@use_db_session
+def get_traffic_incidents(session, start_timestamp, end_timestamp):
 
-#     start_datetime = datetime.fromisoformat(start_timestamp).replace(
-#         tzinfo=timezone.utc
-#     )
-#     end_datetime = datetime.fromisoformat(end_timestamp).replace(tzinfo=timezone.utc)
+    start_datetime = datetime.fromisoformat(start_timestamp).replace(
+        tzinfo=timezone.utc
+    )
+    end_datetime = datetime.fromisoformat(end_timestamp).replace(tzinfo=timezone.utc)
 
-#     statement = select(IncidentReport).where(
-#         IncidentReport.date_created >= start_datetime,
-#         IncidentReport.date_created < end_datetime,
-#     )
+    statement = select(IncidentReport).where(
+        IncidentReport.date_created >= start_datetime,
+        IncidentReport.date_created < end_datetime,
+    )
 
-#     event_list = [
-#         result.to_dict() for result in session.execute(statement).scalars().all()
-#     ]
+    event_list = [
+        result.to_dict() for result in session.execute(statement).scalars().all()
+    ]
 
-#     logger.info(
-#         f"Retrieved {len(event_list)} traffic incident reports between {start_timestamp} and {end_timestamp}"
-#     )
+    logger.info(
+        f"Retrieved {len(event_list)} traffic incident reports between {start_timestamp} and {end_timestamp}"
+    )
 
-#     return event_list, 200
+    return event_list, 200
 
 
 @use_db_session
@@ -174,9 +174,8 @@ app = connexion.FlaskApp(__name__, specification_dir="")
 app.add_api("traffic-api.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
-    from database import create_tables, drop_tables
+    from database import create_tables
 
-    drop_tables()
     create_tables()
     setup_kafka_thread()
     app.run(port=8090, host="0.0.0.0")

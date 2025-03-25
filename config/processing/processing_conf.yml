@@ -1,6 +1,6 @@
 version: 1
 datastore:
-  filename: /app/data/processing.json
+  filename: /app/data/processing/stats.json
 scheduler:
   interval: 5
 eventstore:
