@@ -1,0 +1,18 @@
+*/venv/
+venv/
+*/__pycache__/
+__pycache__/
+
+# Logs
+logs/
+*.log
+
+# Data directories
+data/kafka/
+data/mysql/
+data/zookeeper/
+data/processing/
+data/storage/
+config/dev/*
+
+docker-compose.dev.yml
