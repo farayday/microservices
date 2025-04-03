@@ -15,10 +15,13 @@ with open(CONFIG_FILE, "r") as f:
 
 DATABASE_CONFIG = app_config["datastore"]
 
+user = os.getenv("MYSQL_USER", "default_user")
+password = os.getenv("MYSQL_PASSWORD", "default_password")
+db = os.getenv("MYSQL_DATABASE", "default_db")
 
 db_url = (
-    f"mysql://{DATABASE_CONFIG['user']}:{DATABASE_CONFIG['password']}@"
-    f"{DATABASE_CONFIG['hostname']}:{DATABASE_CONFIG['port']}/{DATABASE_CONFIG['db']}"
+    f"mysql://{user}:{password}@"
+    f"{DATABASE_CONFIG['hostname']}:{DATABASE_CONFIG['port']}/{db}"
 )
 
 # Create the engine using the dynamically generated URL

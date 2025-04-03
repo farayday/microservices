@@ -12,10 +12,11 @@ RUN pip3 install -r requirements.txt
 # Copy the source code
 COPY processing/ /app
 # Change permissions and become a non-privileged user
+RUN mkdir -p /app/logs && mkdir -p /app/data
 RUN chown -R nobody:nogroup /app
-RUN mkdir -p /app/logs && chown -R nobody:nogroup /app/logs && chmod 755 /app/logs
+RUN chmod 755 /app/logs && chmod 755 /app/data
+# Change to a non-privileged user
 USER nobody
-RUN mkdir /app/data
 # Tells on which port the service listens in the container
 EXPOSE 8100
 # Entrypoint = run Python

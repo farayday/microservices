@@ -82,7 +82,11 @@ services:
     ports:
       - "8090:8090"
     environment:
-      - ENV=dev
+      - ENV=${ENV}
+      - MYSQL_RANDOM_ROOT_PASSWORD=1
+      - MYSQL_USER=${MYSQL_USER}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD}
+      - MYSQL_DATABASE=${MYSQL_DATABASE}
       - SERVICE_NAME=storage
     volumes:
       - ./config:/app/config
@@ -123,6 +127,16 @@ services:
       - ./logs:/app/logs
     depends_on:
       - kafka
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: dashboard/Dockerfile
+    ports:
+      - "3000:80"
+    depends_on:
+      - processing
+      - analyzer
 
 volumes:
   mysql_data:

@@ -7,6 +7,8 @@ import os
 from apscheduler.schedulers.background import BackgroundScheduler
 import httpx
 import os
+from connexion.middleware import MiddlewarePosition
+from starlette.middleware.cors import CORSMiddleware
 
 CONFIG_DIR = os.getenv("CONFIG_DIR", "/app/config/dev")
 LOG_DIR = os.getenv("LOG_DIR", "/app/logs")
@@ -52,8 +54,22 @@ def get_stats():
             return stats, 200
 
     except FileNotFoundError:
-        logger.error("Stats do not exist")
-        return {"message": "Stats do not exist"}, 404
+        logger.warning("Stats file does not exist, creating with default values")
+
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(app_config["datastore"]["filename"]), exist_ok=True)
+
+        stats = {
+            "num_condition_reports": 0,
+            "num_incident_reports": 0,
+            "max_vehicle_count": 0,
+            "avg_vehicle_speed": 0,
+            "last_updated": "2000-01-01T00:00:00Z",
+        }
+
+        # Create the file with default values
+        with open(app_config["datastore"]["filename"], "w") as f:
+            json.dump(stats, f)
 
 
 def calculate_stats(conditions_data, incidents_data):
@@ -81,6 +97,7 @@ def populate_stats():
         datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
     )
 
+    os.makedirs(os.path.dirname(app_config["datastore"]["filename"]), exist_ok=True)
     # set default values if file doesn't exist
     try:
         with open(app_config["datastore"]["filename"], "r") as f:
@@ -95,6 +112,10 @@ def populate_stats():
             "avg_vehicle_speed": 0,
             "last_updated": last_updated,
         }
+
+        with open(app_config["datastore"]["filename"], "w") as f:
+            json.dump(stats, f)
+        logger.info(f"Created new stats file at {app_config['datastore']['filename']}")
 
     try:
         # get conditions data
@@ -173,6 +194,15 @@ def init_scheduler():
 
 
 app = connexion.FlaskApp(__name__, specification_dir="")
+
+app.add_middleware(
+    CORSMiddleware,
+    position=MiddlewarePosition.BEFORE_EXCEPTION,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 app.add_api("traffic-api.yml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
