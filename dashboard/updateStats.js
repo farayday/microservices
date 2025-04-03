@@ -9,67 +9,64 @@ const ANALYZER_API_URL = {
     "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/incidents?index=latest",
 };
 
-// This function fetches and updates the general statistics
+// Simple fetch function
 const makeReq = (url, cb) => {
   console.log(`Fetching from: ${url}`);
   fetch(url)
-    .then((res) => {
-      if (!res.ok) {
-        throw new Error(`HTTP error! Status: ${res.status}`);
-      }
-      return res.json();
-    })
+    .then((res) => res.json())
     .then((result) => {
-      console.log("Received data: ", result);
+      console.log(`Got data from ${url}`);
       cb(result);
     })
     .catch((error) => {
-      console.error("Error fetching data:", error);
-      updateErrorMessages(`Error fetching from ${url}: ${error.message}`);
+      console.error(`Error fetching from ${url}: ${error}`);
+      document.getElementById("messages").style.display = "block";
+      const msg = document.createElement("div");
+      msg.innerHTML = `<p>Error: ${error.message}</p>`;
+      document.getElementById("messages").appendChild(msg);
     });
 };
 
-const updateCodeDiv = (result, elemId) =>
-  (document.getElementById(elemId).innerText = JSON.stringify(result));
+// Update element with data
+const updateCodeDiv = (result, elemId) => {
+  const element = document.getElementById(elemId);
+  if (element) {
+    element.textContent = JSON.stringify(result, null, 2);
+  } else {
+    console.error(`Element ${elemId} not found`);
+  }
+};
 
+// Get current time
 const getLocaleDateStr = () => new Date().toLocaleString();
 
+// Main function to get stats
 const getStats = () => {
-  document.getElementById("last-updated-value").innerText = getLocaleDateStr();
+  const timeElement = document.getElementById("last-updated-value");
+  if (timeElement) {
+    timeElement.textContent = getLocaleDateStr();
+  }
 
   makeReq(PROCESSING_STATS_API_URL, (result) =>
     updateCodeDiv(result, "processing-stats")
   );
+
   makeReq(ANALYZER_API_URL.stats, (result) =>
     updateCodeDiv(result, "analyzer-stats")
   );
+
   makeReq(ANALYZER_API_URL.conditions, (result) =>
     updateCodeDiv(result, "event-conditions")
   );
+
   makeReq(ANALYZER_API_URL.incident, (result) =>
     updateCodeDiv(result, "event-incident")
   );
 };
 
-const updateErrorMessages = (message) => {
-  const id = Date.now();
-  console.log("Creation", id);
-  msg = document.createElement("div");
-  msg.id = `error-${id}`;
-  msg.innerHTML = `<p>Something happened at ${getLocaleDateStr()}!</p><code>${message}</code>`;
-  document.getElementById("messages").style.display = "block";
-  document.getElementById("messages").prepend(msg);
-  setTimeout(() => {
-    const elem = document.getElementById(`error-${id}`);
-    if (elem) {
-      elem.remove();
-    }
-  }, 7000);
-};
-
-const setup = () => {
+// Initialize
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("Dashboard starting");
   getStats();
-  setInterval(() => getStats(), 4000); // Update every 4 seconds
-};
-
-document.addEventListener("DOMContentLoaded", setup);
+  setInterval(getStats, 4000);
+});

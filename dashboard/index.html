@@ -4,54 +4,45 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta name="description" content="ACIT3855 statistics application" />
-    <script src="updateStats.js"></script>
     <title>ACIT3855 - Dashboard</title>
   </head>
-
   <body>
     <main id="main">
       <div id="header">
         <h1>Dashboard</h1>
         <div id="logo-container">
-          <img src="logo.png" alt="Traffic Monitoring Logo" id="logo" />
+          <img src="logo.png" alt="Logo" id="logo" />
         </div>
       </div>
       <h5 id="last-updated">
-        Last update: <span id="last-updated-value">N/A</span>
+        Last update: <span id="last-updated-value">Loading...</span>
       </h5>
-      <div id="messages"></div>
+      <div id="messages" style="display: none"></div>
       <h2>Statistics</h2>
       <div id="statistics">
         <div id="processing">
-          <h3>Processing Service Stats</h3>
-          <code id="processing-stats"
-            >Placeholder value - processing stats should appear here</code
-          >
+          <h3>Processing Stats</h3>
+          <code id="processing-stats">Loading...</code>
         </div>
         <div id="analyzer">
-          <h3>Analyzer Service Stats</h3>
-          <code id="analyzer-stats"
-            >Placeholder value - analyzer stats should appear here</code
-          >
+          <h3>Analyzer Stats</h3>
+          <code id="analyzer-stats">Loading...</code>
         </div>
       </div>
       <h2>Analyzer events</h2>
       <div id="events">
         <div>
-          <h3>Traffic Conditions</h3>
-          <code id="event-conditions"
-            >Placeholder value - conditions should appear here</code
-          >
+          <h3>Conditions</h3>
+          <code id="event-conditions">Loading...</code>
         </div>
         <div>
-          <h3>Traffic Incidents</h3>
-          <code id="event-incident"
-            >Placeholder value - incidents should appear here</code
-          >
+          <h3>Incidents</h3>
+          <code id="event-incident">Loading...</code>
         </div>
       </div>
     </main>
+    <!-- Script placed at end of body -->
+    <script src="updateStats.js"></script>
   </body>
 </html>
