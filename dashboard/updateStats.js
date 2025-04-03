@@ -4,9 +4,9 @@ const ANALYZER_API_URL = {
   stats:
     "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/stats",
   conditions:
-    "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/conditions?index=latest",
+    "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/conditions?index=0",
   incident:
-    "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/incidents?index=latest",
+    "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/incidents?index=0",
 };
 
 // Simple fetch function
