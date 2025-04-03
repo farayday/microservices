@@ -1,10 +1,10 @@
 version: 1
 datastore:
-  user: ${MYSQL_USER}
-  password: ${MYSQL_PASSWORD}
+  user: ray
+  password: password
   hostname: db
   port: 3306
-  db: ${MYSQL_DATABASE}
+  db: traffic
 
 events:
   hostname: kafka

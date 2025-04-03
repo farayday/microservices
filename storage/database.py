@@ -7,15 +7,19 @@ import yaml
 from dotenv import load_dotenv
 import os
 
+CONFIG_DIR = os.getenv("CONFIG_DIR", "/app/config/dev")
+CONFIG_FILE = os.path.join(CONFIG_DIR, "storage_conf.yml")
 
-with open("/app/config/prod/storage_conf.yml", "r") as f:
+with open(CONFIG_FILE, "r") as f:
     app_config = yaml.safe_load(f.read())
 
 DATABASE_CONFIG = app_config["datastore"]
 
 
-# Build the database URL dynamically using the values from the configuration file
-db_url = f"mysql://{DATABASE_CONFIG['user']}:{DATABASE_CONFIG['password']}@{DATABASE_CONFIG['hostname']}:{DATABASE_CONFIG['port']}/{DATABASE_CONFIG['db']}"
+db_url = (
+    f"mysql://{DATABASE_CONFIG['user']}:{DATABASE_CONFIG['password']}@"
+    f"{DATABASE_CONFIG['hostname']}:{DATABASE_CONFIG['port']}/{DATABASE_CONFIG['db']}"
+)
 
 # Create the engine using the dynamically generated URL
 engine = create_engine(db_url)

@@ -9,23 +9,8 @@ __pycache__/
 logs/
 
 # Data directories
-data/kafka/
-data/mysql/
-data/zookeeper/
-data/processing/
-data/storage/
-data/database/
-data/kafka-logs/
-data/kafka_data/
+data/
 
-
-traffic-events.db
-
-# docker-compose.prod.yml
+docker-compose.prod.yml
 
 .env
-
-config/prod/
-data/kafka_data/kafka-logs-3b5f4fcd4226/__consumer_offsets-36/leader-epoch-checkpoint
-data/kafka_data/kafka-logs-3b5f4fcd4226/__consumer_offsets-20/00000000000000000000.index
-data/kafka_data/kafka-logs-59972c257964/__consumer_offsets-47/partition.metadata

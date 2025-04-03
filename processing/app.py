@@ -8,16 +8,35 @@ from apscheduler.schedulers.background import BackgroundScheduler
 import httpx
 import os
 
-with open("/app/config/prod/processing_conf.yml", "r") as f:
-    app_config = yaml.safe_load(f)
+CONFIG_DIR = os.getenv("CONFIG_DIR", "/app/config/dev")
+LOG_DIR = os.getenv("LOG_DIR", "/app/logs")
+CONFIG_FILE = os.path.join(CONFIG_DIR, "processing_conf.yml")
+LOG_CONFIG_FILE = os.path.join(CONFIG_DIR, "log_conf.yml")
 
-with open("/app/config/prod/log_conf.yml", "r") as f:
+with open(CONFIG_FILE, "r") as f:
+    app_config = yaml.safe_load(f.read())
+
+with open(LOG_CONFIG_FILE, "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
-    service_name = os.getenv("SERVICE_NAME", "default_service")
-log_file_path = f"/app/logs/{service_name}.log"
+
+
+service_name = os.getenv("SERVICE_NAME", "default_service")
+log_file_path = os.path.join(LOG_DIR, f"{service_name}.log")
+
 if "file" in LOG_CONFIG["handlers"]:
     LOG_CONFIG["handlers"]["file"]["filename"] = log_file_path
     logging.config.dictConfig(LOG_CONFIG)
+
+# with open("/app/config/prod/processing_conf.yml", "r") as f:
+#     app_config = yaml.safe_load(f)
+
+# with open("/app/config/prod/log_conf.yml", "r") as f:
+#     LOG_CONFIG = yaml.safe_load(f.read())
+#     service_name = os.getenv("SERVICE_NAME", "default_service")
+# log_file_path = f"/app/logs/{service_name}.log"
+# if "file" in LOG_CONFIG["handlers"]:
+#     LOG_CONFIG["handlers"]["file"]["filename"] = log_file_path
+#     logging.config.dictConfig(LOG_CONFIG)
 
 logger = logging.getLogger("basicLogger")
 
