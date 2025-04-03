@@ -121,7 +121,7 @@ def get_stats():
 app = connexion.FlaskApp(__name__, specification_dir="")
 
 CORS(app.app, resources={r"/*": {"origins": "*"}})
-app.add_api("traffic-api.yml", strict_validation=True, validate_responses=True)
+app.add_api("traffic-api.yaml", strict_validation=True, validate_responses=True)
 
 
 if __name__ == "__main__":
