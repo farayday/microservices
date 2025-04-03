@@ -5,12 +5,11 @@ import logging.config
 from pykafka import KafkaClient
 import os
 
-
-with open("/app/config/analyzer/analyzer_conf.yml", "r") as f:
+with open("/app/config/prod/analyzer_conf.yml", "r") as f:
     app_config = yaml.safe_load(f.read())
 
 
-with open("/app/config/log_conf.yml", "r") as f:
+with open("/app/config/prod/log_conf.yml", "r") as f:
     LOG_CONFIG = yaml.safe_load(f.read())
     service_name = os.getenv("SERVICE_NAME", "default_service")
 log_file_path = f"/app/logs/{service_name}.log"

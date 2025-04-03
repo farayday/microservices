@@ -15,6 +15,7 @@ COPY storage/ /app
 RUN chown -R nobody:nogroup /app
 RUN mkdir -p /app/logs && chown -R nobody:nogroup /app/logs && chmod 755 /app/logs
 USER nobody
+RUN mkdir /app/data
 # Tells on which port the service listens in the container
 EXPOSE 8090
 # Entrypoint = run Python

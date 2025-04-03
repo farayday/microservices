@@ -1,11 +1,12 @@
+*/myvenv/
 */venv/
 venv/
+myenv/
 */__pycache__/
 __pycache__/
 
 # Logs
 logs/
-*.log
 
 # Data directories
 data/kafka/
@@ -13,6 +14,18 @@ data/mysql/
 data/zookeeper/
 data/processing/
 data/storage/
-config/dev/*
+data/database/
+data/kafka-logs/
+data/kafka_data/
 
-docker-compose.dev.yml
+
+traffic-events.db
+
+# docker-compose.prod.yml
+
+.env
+
+config/prod/
+data/kafka_data/kafka-logs-3b5f4fcd4226/__consumer_offsets-36/leader-epoch-checkpoint
+data/kafka_data/kafka-logs-3b5f4fcd4226/__consumer_offsets-20/00000000000000000000.index
+data/kafka_data/kafka-logs-59972c257964/__consumer_offsets-47/partition.metadata
