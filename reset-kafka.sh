@@ -8,4 +8,4 @@ rm -f ./data/kafka/meta.properties
 # Start the services again
 docker-compose start zookeeper
 sleep 5
-docker compose start kafka
+docker-compose start kafka
