@@ -1,5 +1,3 @@
-/* UPDATE THESE VALUES TO MATCH YOUR SETUP */
-
 const PROCESSING_STATS_API_URL =
   "http://microservices-app.westus2.cloudapp.azure.com:8100/stats";
 const ANALYZER_API_URL = {
@@ -13,14 +11,21 @@ const ANALYZER_API_URL = {
 
 // This function fetches and updates the general statistics
 const makeReq = (url, cb) => {
+  console.log(`Fetching from: ${url}`);
   fetch(url)
-    .then((res) => res.json())
+    .then((res) => {
+      if (!res.ok) {
+        throw new Error(`HTTP error! Status: ${res.status}`);
+      }
+      return res.json();
+    })
     .then((result) => {
       console.log("Received data: ", result);
       cb(result);
     })
     .catch((error) => {
-      updateErrorMessages(error.message);
+      console.error("Error fetching data:", error);
+      updateErrorMessages(`Error fetching from ${url}: ${error.message}`);
     });
 };
 

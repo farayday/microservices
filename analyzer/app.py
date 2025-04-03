@@ -4,8 +4,7 @@ import yaml
 import logging.config
 from pykafka import KafkaClient
 import os
-from connexion.middleware import MiddlewarePosition
-from starlette.middleware.cors import CORSMiddleware
+from flask_cors import CORS
 
 
 CONFIG_DIR = os.getenv("CONFIG_DIR", "/app/config/dev")
@@ -121,15 +120,8 @@ def get_stats():
 
 app = connexion.FlaskApp(__name__, specification_dir="")
 
-app.add_middleware(
-    CORSMiddleware,
-    position=MiddlewarePosition.BEFORE_EXCEPTION,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-app.add_api("traffic-api.yaml", strict_validation=True, validate_responses=True)
+CORS(app.app, resources={r"/*": {"origins": "*"}})
+app.add_api("traffic-api.yml", strict_validation=True, validate_responses=True)
 
 
 if __name__ == "__main__":
