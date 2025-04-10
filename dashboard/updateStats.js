@@ -1,12 +1,11 @@
-const PROCESSING_STATS_API_URL =
-  "http://microservices-app.westus2.cloudapp.azure.com:8100/stats";
+const HOST_URL = "http://microservices-app.westus2.cloudapp.azure.com";
+
+// Updated URLs to use the NGINX reverse proxy paths
+const PROCESSING_STATS_API_URL = `${HOST_URL}/processing/stats`;
 const ANALYZER_API_URL = {
-  stats:
-    "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/stats",
-  conditions:
-    "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/conditions?index=0",
-  incident:
-    "http://microservices-app.westus2.cloudapp.azure.com:8110/traffic/incidents?index=0",
+  stats: `${HOST_URL}/analyzer/traffic/stats`,
+  conditions: `${HOST_URL}/analyzer/traffic/conditions?index=0`,
+  incident: `${HOST_URL}/analyzer/traffic/incidents?index=0`,
 };
 
 // Simple fetch function

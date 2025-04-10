@@ -1,9 +1,3 @@
-# version: 1
-# conditions:
-#   url: http://storage:8090/traffic/conditions
-# incidents:
-#   url: http://storage:8090/traffic/incidents
-
 events:
   hostname: kafka
   port: 9092

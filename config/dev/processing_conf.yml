@@ -5,6 +5,6 @@ scheduler:
   interval: 5
 eventstore:
   conditions:
-    url: http://storage:8090/traffic/conditions
+    url: http://storage/storage/traffic/conditions
   incidents:
-    url: http://storage:8090/traffic/incidents
+    url: http://storage/storage/traffic/incidents
