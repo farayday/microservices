@@ -131,8 +131,6 @@ services:
     depends_on:
       - processing
       - analyzer
-    volumes:
-        - ./nginx.conf:/etc/nginx/conf.d/default.conf
 
 volumes:
   mysql_data:
