@@ -2,6 +2,8 @@
 services:
   db:
     image: mysql
+    ports:
+      - "3306:3306"
     environment:
       ENV: ${ENV}
       MYSQL_RANDOM_ROOT_PASSWORD: 1
@@ -29,6 +31,8 @@ services:
 
   kafka:
     image: wurstmeister/kafka
+    ports:
+      - "9092:9092"
     command: >
       bash -c "rm -rf /kafka/kafka-logs/meta.properties && start-kafka.sh"
     environment:
@@ -97,6 +101,8 @@ services:
     build:
       context: .
       dockerfile: processing/Dockerfile
+    ports:
+      - "8100"
     environment:
       - ENV=dev
       - SERVICE_NAME=processing
@@ -112,6 +118,8 @@ services:
     build:
       context: .
       dockerfile: analyzer/Dockerfile
+    ports:
+      - "8110"
     environment:
       - ENV=dev
       - SERVICE_NAME=analyzer
