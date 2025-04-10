@@ -128,8 +128,6 @@ services:
       dockerfile: dashboard/Dockerfile
     ports:
       - "80:80"
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
     depends_on:
       - processing
       - analyzer
