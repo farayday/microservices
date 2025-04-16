@@ -98,14 +98,14 @@ def report_traffic_incidents(body):
 
 
 app = connexion.FlaskApp(__name__, specification_dir="")
+app.add_api(
+    "traffic-api.yml",
+    base_path="/receiver",
+    strict_validation=True,
+    validate_responses=True,
+)
 if "CORS_ALLOW_ALL" in os.environ and os.environ["CORS_ALLOW_ALL"] == "yes":
     CORS(app.app, resources={r"/*": {"origins": "*"}})
-    app.add_api(
-        "traffic-api.yml",
-        base_path="/receiver",
-        strict_validation=True,
-        validate_responses=True,
-    )
 
 
 if __name__ == "__main__":
